@@ -1,0 +1,36 @@
+/* Footer.module.css */
+
+/* Estilo general del footer */
+.footer {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  /* Estilo para el texto de derechos reservados */
+  .text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo del contenedor de enlaces de redes sociales */
+  .socialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Estilo de cada enlace */
+  .link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .link:hover {
+    color: #61dafb;
+  }
+  

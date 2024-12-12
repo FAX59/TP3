@@ -1,0 +1,44 @@
+/* Header.module.css */
+
+/* Estilo general del header */
+.header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilo del título */
+  .title {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  /* Estilo del menú de navegación */
+  .nav {
+    display: flex;
+  }
+  
+  /* Estilo de la lista de menú */
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  /* Estilo de cada enlace */
+  .link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .link:hover {
+    background-color: #61dafb;
+    border-radius: 5px;
+  }
+  
